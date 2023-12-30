@@ -12,7 +12,7 @@ function App() {
         <Project name="portfolio" />
       </div>
       <div className="contactSlideContainer flex">
-        <Project name="portfolio" />
+        <Project name="portfolio application" />
       </div>
     </div>
   );
