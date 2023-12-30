@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/aryn-ydv/Portfolio/static/css/main.c106d03c.css",
+    "main.js": "/aryn-ydv/Portfolio/static/js/main.c6d003e1.js",
+    "static/media/display-photo.png": "/aryn-ydv/Portfolio/static/media/display-photo.bc195d3054345f5c2e99.png",
+    "index.html": "/aryn-ydv/Portfolio/index.html",
+    "main.c106d03c.css.map": "/aryn-ydv/Portfolio/static/css/main.c106d03c.css.map",
+    "main.c6d003e1.js.map": "/aryn-ydv/Portfolio/static/js/main.c6d003e1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c106d03c.css",
+    "static/js/main.c6d003e1.js"
+  ]
+}
