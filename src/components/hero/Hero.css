@@ -1,0 +1,55 @@
+.heroContainer {
+  width: 60vw;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+.detailsContainer {
+  flex-direction: row;
+  justify-content: space-between;
+  width: 60vw;
+}
+
+.nameContainer {
+  align-items: flex-start;
+  gap: 14px;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 4.5rem;
+}
+
+.role {
+  font-weight: bold;
+  color: var(--semantics-green);
+  font-family: "Lexend Zetta", sans-serif;
+}
+
+.mainSkills {
+  flex-direction: row;
+  gap: 12px;
+}
+
+img {
+  width: 18vw;
+}
+
+.aboutContainer {
+  width: 40vw;
+  font-size: small;
+  font-weight: 400;
+  color: var(--neutral-04);
+}
+
+.linksContainer {
+  gap: 4px;
+  align-items: flex-start;
+}
+
+.linkContainer {
+  flex-direction: row;
+  gap: 12px;
+  font-weight: lighter;
+  color: var(--neutral-06);
+}

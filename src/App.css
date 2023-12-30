@@ -1,38 +1,40 @@
-.App {
-  text-align: center;
+:root {
+  box-sizing: border-box;
+  --brand-yellow: #ffdb15;
+  --brand-black: #020301;
+  --brand-khakhi: #b5a197;
+  --brand-white: #f3f5f9;
+  --semantics-yellow: #ffb30f;
+  --semantics-red: #fd151b;
+  --semantics-green: #69dc9e;
+  --neutral-01: #000000;
+  --neutral-02: #1a1a1a;
+  --neutral-03: #333333;
+  --neutral-04: #cccccc;
+  --neutral-05: #e6e6e6;
+  --neutral-06: #ffffff;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.flex {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  flex-direction: column;
 }
 
-.App-link {
-  color: #61dafb;
+.appContainer {
+  background-color: var(--neutral-03);
+  position: relative;
+  height: 100vh;
+  scroll-behavior: smooth;
+  overflow: auto;
+  scroll-snap-type: y mandatory;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.heroSlideContainer,
+.projectSlideContainer,
+.contactSlideContainer {
+  color: var(--neutral-06);
+  height: 100vh;
+  scroll-snap-align: start;
 }

@@ -1,0 +1,7 @@
+.buttonContainer {
+  background-color: #1a1a1a;
+  padding: 1rem;
+  padding-inline: 2rem;
+  border-radius: 2px;
+  font-size: 0.7rem;
+}
