@@ -22,6 +22,10 @@
   flex-direction: column;
 }
 
+.grid {
+  display: gird;
+}
+
 .appContainer {
   background-color: var(--neutral-03);
   position: relative;
@@ -37,4 +41,17 @@
   color: var(--neutral-06);
   height: 100vh;
   scroll-snap-align: start;
+}
+
+.projectCaption,
+.contactCaption {
+  font-size: 3rem;
+  font-weight: bold;
+  color: var(--semantics-yellow);
+  margin-block-end: 8vh;
+}
+
+.projectCarousel {
+  width: 300px;
+  border-radius: 8px;
 }

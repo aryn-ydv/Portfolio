@@ -1,0 +1,30 @@
+textarea {
+  height: 40vh;
+  width: 50vw;
+  padding: 2rem;
+  resize: none;
+  font-size: large;
+  font-weight: bold;
+  background-color: var(--neutral-02);
+  color: var(--neutral-06);
+  border: none;
+  outline: none;
+  border-radius: 8px 8px 0px 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.contactButtonContainer {
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 54.2vw;
+}
+
+.socialButtonContainer {
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2px;
+}

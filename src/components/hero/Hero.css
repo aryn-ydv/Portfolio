@@ -45,6 +45,16 @@ img {
 .linksContainer {
   gap: 4px;
   align-items: flex-start;
+  display: grid;
+  column-gap: 24px;
+  flex-wrap: wrap;
+  grid-template-columns: 1fr 1fr;
+}
+
+@media screen and (max-width: 750px) {
+  .linksContainer {
+    grid-template-columns: 1fr;
+  }
 }
 
 .linkContainer {
